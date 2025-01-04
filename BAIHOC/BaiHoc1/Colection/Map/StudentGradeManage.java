@@ -9,7 +9,7 @@ public class StudentGradeManage {
     public StudentGradeManage () {
         studentGrades = new HashMap<>();
     }
-    public void addStudent(String name, Map <String, List<Integer>> subject ){
+    public void addStudent(String name, Map subject ){
         studentGrades.add(name, subject);
     }
 }
